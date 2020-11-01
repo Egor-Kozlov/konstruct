@@ -1,1 +1,1 @@
-# konstruct
+# https://egor-kozlov.github.io/konstruct/
