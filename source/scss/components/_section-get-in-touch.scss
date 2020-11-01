@@ -1,0 +1,35 @@
+.section-get-in-touch {
+    background: url(../img/backgrounds/city_background.png) no-repeat;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.section-get-in-touch-body {
+    display: flex;
+    flex-direction: column;
+    padding-top: 15em;
+    padding-bottom: 19em;
+}
+
+.section-get-in-touch-body__title {
+    width: 11em;
+    margin-bottom: 1.3em;
+
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3em;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.15px;
+    color: #48555B;
+}
+
+.buttom-get-in-touch{
+    margin: 0 auto;
+}
+
+.buttom-get-in-touch-text {
+    @include buttom-text;
+}

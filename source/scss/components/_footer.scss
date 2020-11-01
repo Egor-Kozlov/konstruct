@@ -1,0 +1,88 @@
+.footer {
+    padding-top: 3em;
+    background: #141A20;
+    padding-bottom: 2em;
+}
+.footer-body {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.footer-about {
+    width: 30%;
+}
+
+.logo-footer {
+    @include logo__light;
+    width: 3em;
+    margin-left: 0;
+    
+}
+
+.footer-links {
+    width: 30%;
+}
+
+.footer-contact {
+    width: 20%;
+}
+
+.footer-icons {
+    width: 20%;
+    padding-top: 3em;
+}
+
+.about-element {
+    margin-top: 0.5em;
+}
+
+.about-title {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.3em;
+    line-height: 15px;
+    text-transform: uppercase;
+    letter-spacing: 0.846154px;
+    color: #FFFFFF;
+}
+
+.footer-text {
+    @include text;
+    color: #FFFFFF;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-icon {
+    width: 2.5em;
+    height: 2.5em;
+}
+
+.facebook {
+    background: url(../img/icons/facebook_icon.svg) center no-repeat;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: auto 95%;
+}
+
+.twitter {
+    background: url(../img/icons/twitter_icon.svg) center no-repeat;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: auto 95%;
+}
+
+.google {
+    background: url(../img/icons/google_icon.svg) center no-repeat;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: auto 95%;
+}
+
+
+

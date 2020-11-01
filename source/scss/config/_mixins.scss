@@ -1,0 +1,88 @@
+@mixin  logo__light {
+    display: flex;
+    font-family: BebasNeueBold;
+    font-size: 3em;
+    color: #FFFFFF;
+}
+
+@mixin logo_dark {
+    display: flex;
+    font-family: BebasNeueBold;
+    font-size: 2.7em;
+    background: #171819;
+}
+
+@mixin triangle-logo-light {
+    width: 0;
+    height: 0;
+    margin: 0.14em 0.05em;
+    
+    border-top: 0.4em solid transparent;
+    border-right: 0.3em solid #00A4E5;;
+    border-bottom: 0.4em solid transparent;
+}
+
+@mixin triangle-logo-dark {
+    width: 0;
+    height: 0;
+    margin: 0.14em 0.05em;
+    
+    border-top: 0.4em solid transparent;
+    border-right: 0.3em solid #00A4E5;;
+    border-bottom: 0.4em solid transparent;
+}
+
+@mixin title {
+    height: 1em;
+
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    
+    font-size: 1.8em;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: 2.30625px;
+    color: #48555B;
+}
+
+@mixin subtitle-text {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2em;
+    line-height: 150%;
+    letter-spacing: 0.1875px;
+
+    color: #48555B;
+}
+
+@mixin text {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.3em;
+    line-height: 177%;
+    letter-spacing: 0.1875px;
+    color: #48555B;
+}
+
+@mixin buttom {
+    width: 15em;
+    height: 4em;
+    border: none;
+    background: #00A4E5;
+}
+
+@mixin buttom-text {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.3em;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+

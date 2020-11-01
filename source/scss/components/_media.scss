@@ -1,0 +1,84 @@
+@media (max-width: 768px){
+    .section-our-story-content {
+        flex-direction: column;
+    }
+
+    .section-our-story-text {
+        width: 80%;
+    }
+
+    .cards__item{
+        height: 16em;
+        margin-top: 2em;
+    }
+
+
+
+    .section-our-capabilities-title-block {
+        flex-direction: column;
+    }
+
+    .section-our-capabilities-title{
+        width: 80%;
+        margin-bottom: 2em;
+    }
+
+    .section-our-capabilities-subtitle {
+        width: 80%;
+        margin-bottom: 1em;
+    }
+
+    .buttom-all-services {
+        margin-left: 4em;
+    }
+
+    .section-our-capabilities-cards {
+        flex-direction: column;
+    }
+
+    .section-subscribe-body {
+        flex-direction: column;
+        
+    }
+
+    .footer-body {
+        flex-direction: column;
+    }
+    .footer-about {
+        width: 80%;
+    }
+    .footer-links {
+        width: 80%;
+    }
+    .footer-contact { 
+        width: 80%;
+    }
+    .footer-icons  {
+        width: 80%;
+        margin-bottom: 4em;
+    }
+    .input_email {
+        margin-left: 15%;
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+    .button-subscribe-body{
+        margin-left: 32%;
+    }
+
+}
+
+@media (max-width: 450px){
+    .cards{
+        flex-direction: column;
+        
+    }
+}
+
+@media ( min-width: 451px ) and (max-width: 768px){
+    .cards__item {
+        margin-right: 4em;
+    }
+  
+
+}

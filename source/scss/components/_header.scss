@@ -1,0 +1,65 @@
+    /* Header 
+    =================================================================*/
+    /* Чтобы было удобно использовать em, указываю родителю размер шрифта 10px */
+    /* 20px = 2em , 25px = 2,5em  и тд*/
+    .header{
+        background: url(../img/backgrounds/tower_background.png) center no-repeat;
+        background-size: cover;
+        height: 100vh;
+    }
+    
+    .header-body {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    
+        height: 100vh;
+    
+        text-align: center;
+    }
+    
+    .logo-light {
+        @include logo__light;
+        padding-top: 5vh;
+    }
+    
+    .triangle-logo-light {
+       @include triangle-logo-light;
+    }
+    
+    .header__text{
+        /* устанавливаем отступы для самого широкого блока, чтобы его не зажевало */
+        margin-left: 7%;
+        margin-right: 7%;
+    }
+    
+    .header__title {
+        font-size: 6em;
+        font-family: BebasNeueBold;
+        text-transform: uppercase;
+        /* почему сюда плохо заходят em? */
+        letter-spacing: 7px;
+        color: #FFFFFF;
+    }
+    
+    .header__discription {
+        font-size: 1.6em;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 600;
+        letter-spacing: 3px;
+        color: #FFFFFF;
+    }
+    
+    .header__skroll-down {
+        margin-bottom: 10vh;
+    
+        font-size: 1.2em;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 600;
+        letter-spacing: 0.34em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    /* End header 
+    ==============================================================*/
+    

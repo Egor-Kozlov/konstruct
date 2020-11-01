@@ -1,0 +1,56 @@
+.nav-body {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2em;
+    padding-bottom: 2em;
+
+    border-bottom: 1px solid #E6E6E6;
+}
+
+
+.logo-dark {
+    @include logo_dark;
+   
+    background: #FFFFFF;
+    margin-left: 3%;
+}
+
+.triangle-logo-dark {
+    @include triangle-logo-dark;
+}
+
+// тут проблема адаптива
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    
+    max-width: 80%;
+    min-width: 50%;
+
+    text-decoration: none;
+    margin-right: 1%;
+    
+    .menu__item {
+      
+        list-style: none;
+        margin-left: 1%;
+        
+            & > a{
+              text-decoration: none;
+              text-transform: uppercase;
+              font-family: 'Open Sans', sans-serif;
+              font-weight: 600;
+              font-size: 1.2em;
+              line-height: 1.6em;
+              text-align: center;
+              letter-spacing: 1.09091px;
+              color: #48555B;
+            }
+    }
+    
+}
+
+
+

@@ -1,0 +1,13 @@
+.section-copyright {
+    padding: 1.3em;
+    background: #171819;
+}
+
+.copyright-text {
+    @include text;
+    
+
+    color: #FFFFFF;
+    font-size: 1em;
+    text-align: center;
+}

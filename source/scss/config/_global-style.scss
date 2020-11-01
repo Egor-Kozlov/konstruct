@@ -1,0 +1,36 @@
+/* fonts 
+font-family: 'Open Sans', sans-serif;
+BebasNeueBold
+=========================================================*/
+@font-face {
+    font-family: BebasNeueBold;
+    src: url(../fonts/bebas_neue.ttf);
+    }
+    
+    /*
+    Структура: 
+    Позиционирование
+    Блочная модель
+    Типографика
+    Оформление
+    Анимация
+    Разное 
+    */
+    
+    /* Global */
+    
+    * {
+        margin: 0 auto;
+        padding: 0;
+    }
+    
+    body {
+        background: white;
+        min-width: 200px;
+    }
+    
+    .container {
+        /* Делаем резиновый шрифт в зависимости от высоты экрана */
+        font-size: calc(100vh/95);
+        max-width: 100em;
+    }

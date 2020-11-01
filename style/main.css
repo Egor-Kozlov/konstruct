@@ -1,0 +1,119 @@
+/* fonts 
+font-family: 'Open Sans', sans-serif;
+BebasNeueBold
+=========================================================*/
+@font-face {
+font-family: BebasNeueBold;
+src: url(../fonts/bebas_neue.ttf);
+}
+
+/* Позиционирование
+Блочная модель
+Типографика
+Оформление
+Анимация
+Разное */
+
+/* Global */
+
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+body {
+    background: white;
+    min-width: 200px;
+}
+
+.container{
+    max-width: 1000px;
+    /* Делаем резиновый шрифт в зависимости от высоты экрана */
+    font-size: calc(100vh/100);
+    
+}
+
+/* Header 
+=================================================================*/
+/* Чтобы было удобно использовать em, указываю родителю размер шрифта 10px */
+/* 20px = 2em , 25px = 2,5em  и тд*/
+.header{
+    background: url(../img/backgrounds/tower_background.png) center no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.header__body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    height: 100vh;
+
+    text-align: center;
+}
+
+.header__logo {
+    display: flex;
+
+    margin-top: 5vh;
+
+    font-family: BebasNeueBold;
+    font-size: 3em;
+    color: #FFFFFF;
+}
+
+.triangle-left {
+	width: 0;
+    height: 0;
+    margin: 0.14em 0.05em;
+    
+	border-top: 0.4em solid transparent;
+	border-right: 0.3em solid #00A4E5;;
+	border-bottom: 0.4em solid transparent;
+}
+
+.header__text{
+    /* устанавливаем отступы для самого широкого блока, чтобы его не зажевало */
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.header__title {
+    font-size: 6em;
+    font-family: BebasNeueBold;
+    text-transform: uppercase;
+    /* почему сюда плохо заходят em? */
+    letter-spacing: 7px;
+    color: #FFFFFF;
+}
+
+.header__discription {
+    font-size: 1.6em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    letter-spacing: 3px;
+    color: #FFFFFF;
+}
+
+.header__skroll-down {
+
+    margin-bottom: 10vh;
+
+    font-size: 1.2em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.34em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+/* End header 
+==============================================================*/
+
+/* navbar 
+==============================================================*/
+
+
+
+/* End navbar 
+==============================================================*/

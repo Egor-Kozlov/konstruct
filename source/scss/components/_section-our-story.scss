@@ -1,0 +1,68 @@
+.section-our-story-body {
+    padding-top: 5em;
+
+    & > .section-title {
+        @include title;
+        text-align: center;
+    }
+}
+
+.section-our-story-content {
+    margin-top: 5em;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.section-subtitle {
+    @include subtitle-text;
+    margin-bottom: 1em;
+}
+.text {
+    @include text;
+}
+
+.section-our-story-text {
+    width: 40%;
+}
+
+.cards {
+    width: 50%;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards__item {
+    width: 14em;
+    height: 22em;
+    background: lightblue;
+
+    & > p{
+        margin-top: 1em;
+        margin-left: 0.5em;
+
+        font-size: 2.4em;
+        letter-spacing: 0.1em;
+        line-height: 121%;
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: 800;
+        color: #FFFFFF;
+        padding-right: 1em;
+    }
+}
+
+.cards__item_we-plan {
+    background: url(../img/backgrounds/we_plan_background.png) no-repeat center;
+}
+
+.cards__item_we-manage{
+    background: url(../img/backgrounds/we_manage_background.png) no-repeat center;
+}
+
+.cards__item_we-build {
+    background: url(../img/backgrounds/we_build_background.png);
+}
+
