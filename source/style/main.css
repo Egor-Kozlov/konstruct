@@ -667,7 +667,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 1.3em;
+  font-size: 1.2em;
   line-height: 18px;
   text-align: center;
   letter-spacing: 0.5px;
@@ -782,18 +782,6 @@ body {
   margin: 0 auto;
 }
 
-.buttom-get-in-touch-text {
-  font-family: 'Open Sans', sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 1.3em;
-  line-height: 18px;
-  text-align: center;
-  letter-spacing: 0.5px;
-  text-transform: uppercase;
-  color: #FFFFFF;
-}
-
 .section-subscribe {
   background: #171819;
 }
@@ -807,6 +795,7 @@ body {
 }
 
 .section-subscribe-text {
+  padding-top: 0.4em;
   font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -819,7 +808,7 @@ body {
 
 .input_email {
   width: 30.5em;
-  height: 4em;
+  height: 4.6em;
   border: 0;
 }
 
@@ -828,13 +817,10 @@ body {
   height: 4em;
   border: none;
   background: #00A4E5;
-}
-
-.button-subscribe-text {
   font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 1.3em;
+  font-size: 1.2em;
   line-height: 18px;
   text-align: center;
   letter-spacing: 0.5px;

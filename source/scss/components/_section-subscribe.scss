@@ -10,6 +10,8 @@
 }
 
 .section-subscribe-text {
+    padding-top: 0.4em;
+
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -22,16 +24,15 @@
 
 .input_email{
     width: 30.5em;
-    height: 4em;
+    height: 4.6em;
     border: 0;
 }
 
 .button {
     @include buttom;
-}
-
-.button-subscribe-text {
     @include buttom-text;
 }
+
+
 
 
